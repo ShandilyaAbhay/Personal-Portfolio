@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="left">
+            <a href="/">Abhay Kumar</a>
+        </div>
+
+        <div class="right">
+            <a href="https://github.com/ShandilyaAbhay" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/abhayabco/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:abhaykuma9155@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- SECTION 1: Hero -->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Abhay 👋</h2>
+                <p>
+                    I'm passionate about exploring new ideas, building projects, and
+                    pushing creative boundaries. Currently, I'm an intern working on
+                    Full Stack Development at Technohacks edutech, and I enjoy diving
+                    into new challenges that help me grow my skills. In my free time, I
+                    love discovering new games, which keeps my curiosity alive and
+                    inspires my work. My portfolio showcases a mix of professional
+                    projects, personal interests, and a bit of who I am beyond the
+                    code/design. I'm excited to connect and collaborate with like-minded
+                    people!
+                </p>
+
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="abhay pic.jpg" alt="Abhay kumar headshot" />
+            </div>
+        </section>
+
+        <!-- SECTION 2: Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                I specialize in front-end and back-end web development, with a strong foundation in HTML, CSS, and
+                JavaScript to create visually engaging and responsive designs. With Node.js, I bring functionality and
+                interactivity to my projects, ensuring a seamless user experience. Additionally, I work with React.js to
+                build dynamic, efficient applications with a focus on clean, modular code. Together, these skills allow
+                me to bring ideas to life on the web, from concept to launch.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="html-logo.webp" alt="html logo" />
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="css-logo.webp" alt="css logo" />
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="javascript-logo.webp" alt="javascript logo" />
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="cell">
+                    <img src="node-logo.webp" alt="node logo" />
+                    <span>Node.js</span>
+                </div>
+
+                <div class="cell">
+                    <img src="react-logo.webp" alt="react logo" />
+                    <span>React.js</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: Testimony -->
+        <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+
+            <div class="group">
+                <div class="person-details">
+                    <img src="Abhay 1.jpg" />
+                    <p>Abhay Kumar</p>
+                    <p>Full Stack Developer.</p>
+                </div>
+
+                <div class="text">
+                    "I am a dedicated and driven professional with a passion for
+                    learning and exploring innovative ideas. Known for her curiosity and
+                    determination, I approache every project with a blend of
+                    creativity and focus. In recent internship, shown
+                    remarkable growth, consistently delivering high-quality work and
+                    bringing fresh insights to the team. I'm enthusiasm for new
+                    challenges and my commitment to excellence make her a valuable
+                    asset in any project or team."
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: Contact -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                    I’m always excited to meet new people and explore potential collaborations. Whether you have a
+                    project idea, a job opportunity, or just want to chat about the latest in web development, feel free
+                    to reach out. Let’s build something amazing together!
+                </div>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" />
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" />
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
